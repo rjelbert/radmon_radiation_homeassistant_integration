@@ -14,7 +14,7 @@ You will need to edit the Entity settings manually to change the icon types to m
 Misc radiation notes:
 
 CPM (or counts per minute) are the events counted from a Geiger Muller (GM) Tube during a one minute period and is usually used
-to calculate a radiation level.
+to calculate a radiation level. See https://en.wikipedia.org/wiki/Geiger%E2%80%93M%C3%BCller_tube
 
 Different GM Tubes have different sensitity levels and therefore produce different CPM for the same radiation levels. For example, some GM tubes produce 0-5 CPM and others 50-100 CPM for the same background radiation level. 
 
