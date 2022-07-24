@@ -1,0 +1,31 @@
+sensor:
+# RJ the radiation sensor that pulls station data from radmon.org
+# update the 'user' in the get below by checking radmon.org for your nearest station
+
+  - platform: command_line
+    scan_interval: 60
+    name: "Radiation"
+    unique_id: "Radmon.org_Radiation_station_data"
+    command: python -c "import requests; print(str(requests.get('http://radmon.org/radmon.php?function=lastreading&user=rjelbert').text).split(' ', 1)[0])"
+    unit_of_measurement: "CPM"
+    value_template: "{{ value }}"
+
+# RJ an additional radiation sensor but a 10 minute average of the main sensor
+  - platform: statistics
+    name: "Radiation 10 minute average"
+    unique_id: "Radmon.org_Radiation_10_min_average"
+    entity_id: sensor.radiation
+    state_characteristic: mean
+    max_age:
+      minutes: 10
+    sampling_size: 15
+
+# RJ an additional radiation sensor but a 30 minute average of the main sensor
+  - platform: statistics
+    name: "Radiation 30 minute average"
+    unique_id: "Radmon.org_Radiation_30_min_average"
+    entity_id: sensor.radiation
+    state_characteristic: mean
+    max_age:
+      minutes: 30
+    sampling_size: 45
