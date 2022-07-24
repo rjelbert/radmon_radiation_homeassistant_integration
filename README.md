@@ -29,7 +29,7 @@ Note that most people stick with the CPM values and learn what normal looks like
 
 What various levels might mean (from various google searches):
 
-0.27µSv/h - typical background level
+0.27µSv/h - Typical background level
 
 1.14µSv/h - Shelter population
 
@@ -37,7 +37,7 @@ What various levels might mean (from various google searches):
 
 11.4µSv/h - Issue Iodine tablets
 
-https://xkcd.com/radiation (for an interesting chart on dose levels) [
+https://xkcd.com/radiation (for an interesting chart on dose levels)
 
 https://en.wikipedia.org/wiki/Ionizing_radiation
 
