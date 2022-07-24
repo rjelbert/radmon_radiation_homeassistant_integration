@@ -11,6 +11,9 @@ You will need to edit the Entity settings manually to change the icon types to m
 
 
 TODO (if I get time):
+
 Make the config use current location to select the nearest radmon station automatically
+
 Make the icon state update for when the sensor is down / stopped providing updates
+
 Expose the last updated time/date stamp
