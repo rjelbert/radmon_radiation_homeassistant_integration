@@ -27,15 +27,17 @@ See your GM tube datasheet for an individual conversion factor for the radmon st
 Note that most people stick with the CPM values and learn what normal looks like by looking at the data.
 
 
-What various levels mean:
+What various levels might mean (from various google searches):
 
-0.114µSv.h - Max daily dose == 1mSv.year
+0.27µSv/h - typical background level
 
-1.14µSv.h - Shelter population
+1.14µSv/h - Shelter population
 
-5.7µSv.h  - Evacuation of population
+5.7µSv/h  - Evacuation of population
 
-11.4µSv.h - Issue Iodine tablets
+11.4µSv/h - Issue Iodine tablets
+
+https://xkcd.com/radiation (for an interesting chart on dose levels) [
 
 https://en.wikipedia.org/wiki/Ionizing_radiation
 
