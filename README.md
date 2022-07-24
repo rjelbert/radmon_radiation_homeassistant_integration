@@ -18,7 +18,16 @@ to calculate a radiation level. See https://en.wikipedia.org/wiki/Geiger%E2%80%9
 
 Different GM Tubes have different sensitity levels and therefore produce different CPM for the same radiation levels. For example, some GM tubes produce 0-5 CPM and others 50-100 CPM for the same background radiation level. 
 
-For the examples on this github project, I use 0.00812037 as the conversion factor to convert to uSv/h. See your GM tube datasheet or read https://www.pascalchour.fr/ressources/cgm/cgm_en.html 
+For the examples on this github project, I use 0.00812037 as the conversion factor to convert to uSv/h because my rjelbert station has a J305 GM tube. 
+
+See https://en.wikipedia.org/wiki/Sievert
+
+See your GM tube datasheet for an individual conversion factor for the radmon station you select. Also read https://www.pascalchour.fr/ressources/cgm/cgm_en.html 
+
+Note that most people stick with the CPM values and learn what normal looks like by looking at the data.
+
+
+What various levels mean:
 
 0.114µSv.h - Max daily dose == 1mSv.year
 
