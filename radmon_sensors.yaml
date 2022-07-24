@@ -6,7 +6,7 @@ sensor:
     scan_interval: 60
     name: "Radiation CPM"
     unique_id: "Radmon.org_Radiation_station_data"
-    command: python -c "import requests; print(str(requests.get('http://radmon.org/radmon.php?function=lastreading&user=rjelbert').text).split(' ', 1)[0])"
+    command: python -c "import requests; print(str(requests.get('https://radmon.org/radmon.php?function=lastreading&user=rjelbert').text).split(' ', 1)[0])"
     unit_of_measurement: "CPM"
     value_template: "{{ value }}"
 
